@@ -1,4 +1,4 @@
-///<reference path="../../typings/globals/jquery/index.d.ts" />
+///<reference path="../../typings/index.d.ts" />
 class User {
   name: string;
   age: number;
