@@ -14,7 +14,7 @@ gulp.task('lint', function() {
 
 var tsProject = ts.createProject({
   removeComments: true,
-  noImplicitAny: true,
+  noImplicitAny: false,
   target: 'ES3',
   module: 'commonjs',
   declarationFiles: false
@@ -26,8 +26,8 @@ gulp.task('tsc', function() {
 
 var tsTestProject = ts.createProject({
   removeComments: true,
-  noImplicitAny: true,
-  target: 'ES3',
+  noImplicitAny: false,
+  target: 'ES6',
   module: 'commonjs',
   declarationFiles: false
 });
