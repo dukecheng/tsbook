@@ -1,0 +1,23 @@
+{
+  "name": "tsbook",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Duke Cheng <dk@feinian.me>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DukeCheng/tsbook",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "jasmine#^2.8.0"
+  }
+}
